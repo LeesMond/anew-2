@@ -5,7 +5,7 @@ public class gugudan {
 
     while(true){
       Scanner scan = new Scanner(System.in);
-  		System.out.print("Insert number(0:Exit) : ");
+  		System.out.print("Insert number(0:Exit  ) : ");
   		int num = scan.nextInt();
 
       if(num==0){
