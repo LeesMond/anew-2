@@ -1,8 +1,13 @@
 use test
 db.things.drop()
 
+<<<<<<< HEAD
 m={ename : "smith"}
 n={empno : 1101}
+=======
+m={ename:"smith"}
+n={empno:1101}
+>>>>>>> b581ad33c519787b775ec308199491615342c97a
 db.things.save(m)
 db.things.save(n)
 db.things.find()
@@ -12,5 +17,10 @@ db.things.find()
 
 for(var n=1103; n<=1120; n++) db.things.save({n:n, m:"test"})
 db.things.find()
+<<<<<<< HEAD
 
 it
+=======
+it
+
+>>>>>>> b581ad33c519787b775ec308199491615342c97a

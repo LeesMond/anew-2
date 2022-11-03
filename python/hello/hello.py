@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from bottle import route, run
 
 @route('/')
@@ -5,3 +6,12 @@ from bottle import route, run
 def index(name="World"):
     return 'Hello %s' % name
 run(host='0.0.0.0', port=8000, threaded=True)
+=======
+from bottle import route, run
+
+@route('/')
+@route('/<name>')
+def index(name="World"):
+    return 'Hello %s' % name
+run(host='0.0.0.0', port=8000, threaded=True)
+>>>>>>> b581ad33c519787b775ec308199491615342c97a

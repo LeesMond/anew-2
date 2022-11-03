@@ -1,3 +1,7 @@
 # anew
+<<<<<<< HEAD
 
 node/**/node_modules
+=======
+*.ftpconfig
+>>>>>>> b581ad33c519787b775ec308199491615342c97a

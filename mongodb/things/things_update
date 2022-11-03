@@ -1,3 +1,7 @@
 use test
+<<<<<<< HEAD
 db.things.update({empno:1102},{$set:{dept:"human"}})
+=======
+db.things.update({empno:1102}, {$set:{dept:"human"}})
+>>>>>>> b581ad33c519787b775ec308199491615342c97a
 db.things.find({empno:1102})

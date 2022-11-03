@@ -1,5 +1,9 @@
 <project>
+<<<<<<< HEAD
   <groupId>com.lee</groupId>
+=======
+  <groupId>com.park</groupId>
+>>>>>>> b581ad33c519787b775ec308199491615342c97a
   <artifactId>HelloWorld</artifactId>
   <modelVersion>4.0.0</modelVersion>
   <version>1.0</version>
@@ -8,18 +12,30 @@
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
+<<<<<<< HEAD
         <artifactId>maven-compiler-plugin</artifactId>
+=======
+        <artifactId>mave-compiler-plugin</artifactId>
+>>>>>>> b581ad33c519787b775ec308199491615342c97a
         <version>3.7.0</version>
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
         </configuration>
       </plugin>
+<<<<<<< HEAD
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.0.2</version>
         <configuration>
+=======
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-jar-plugin</artifactId>
+      <version>3.0.2</version>
+      <configuration>
+>>>>>>> b581ad33c519787b775ec308199491615342c97a
           <archive>
             <manifest>
               <mainClass>HelloWorld</mainClass>
