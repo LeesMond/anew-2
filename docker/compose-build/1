@@ -1,0 +1,8 @@
+services:
+ webserver:
+  build: 
+  	context: data
+	dockerfile : myDockerfile
+	args:
+		name: "Lee"
+		no : 1
