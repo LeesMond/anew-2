@@ -5,7 +5,8 @@ node/**/node_modules
 =======
 *.ftpconfig
 # anew
-
+.c9
+.idea
 #environment files
 .env
 
