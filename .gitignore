@@ -20,6 +20,9 @@ node/**/uploadedFiles
 mongodb/**/*.json
 mongodb/backup
 
+#react App
+
+react/**/node_modules
 
 
 #python venv
